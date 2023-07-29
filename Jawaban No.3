@@ -1,0 +1,14 @@
+#jawaban no.3
+select distinct orders.Date as order_date,
+	CategoryName as category_name,
+	ProdName as product_name,
+	Price as product_price,
+	orders.Quantity as order_qty,
+	(Quantity * Price) as total_sales,
+	CustomerEmail as cust_email, 
+	CustomerCity as cust_city
+from final.customers
+join final.orders on final.orders.CustomerID = final.customers.CustomerID
+join final.products on final.products.ProdNumber = final.orders.ProdNumber
+join final.productcategory on final.productcategory.CategoryID = final.products.Category
+order by order_date asc;
