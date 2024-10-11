@@ -39,3 +39,4 @@ After four weeks learning Business Intelligence Analyst with Bank Muamalat, rang
    Using tableau to explore and visualization data
 
 # Summary Insights
+The Robots product category has the highest total sales, but has the 2nd lowest number level based on order quantity. Meanwhile, eBooks shows the highest number based on order quantity, but is at the 2nd lowest level based on total sales. Therefore, I recommend maintaining and improving the quality of eBooks. In addition, it can also innovate production in the eBooks category by considering the price.
